@@ -9,6 +9,6 @@ return {
   },
   config = function()
     --setup open with leader e
-    vim.keymap.set("n", "<leader>e", ":Neotree toggle <CR>")
+    vim.keymap.set("n", "<leader>e", ":Neotree toggle <CR>", {desc = "toggle Neotree"})
   end,
 }
