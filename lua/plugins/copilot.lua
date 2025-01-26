@@ -10,4 +10,4 @@ return {
 			{ noremap = true, silent = true, desc = "Toggle GitHub [C]o[p]ilot" }
 		)
 	end,
-}  
+}
