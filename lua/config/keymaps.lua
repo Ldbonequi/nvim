@@ -34,4 +34,4 @@ vim.keymap.set("n", "<leader>wh", ":split<cr>", { desc = "[W]indow Split [H]oriz
 vim.keymap.set("v", "<", "<gv", { desc = "Indent left in visual mode" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right in visual mode" })
 
-vim.keymap.set("n", "<leader>tt", ":terminal<CR>", { desc = "Open Terminal" })
+vim.keymap.set("n", "<leader>tt", ":terminal<CR>", { desc = "[T]ab goto [T]erminal" })
