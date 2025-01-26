@@ -21,6 +21,7 @@ vim.keymap.set("n", "<C-l>", ":wincmd l<cr>", { desc = "Move focus to the right 
 vim.keymap.set("n", "<C-j>", ":wincmd j<cr>", { desc = "Move focus to the lower window" })
 vim.keymap.set("n", "<C-k>", ":wincmd k<cr>", { desc = "Move focus to the upper window" })
 
+-- tabs management
 vim.keymap.set("n", "<leader>tc", ":tabnew<cr>", {desc = "[T]ab [C]reat New"})
 vim.keymap.set("n", "<leader>tn", ":tabnext<cr>", {desc = "[T]ab [N]ext"})
 vim.keymap.set("n", "<leader>tp", ":tabprevious<cr>", {desc = "[T]ab [P]revious"})
@@ -32,3 +33,5 @@ vim.keymap.set("n", "<leader>wh", ":split<cr>", { desc = "[W]indow Split [H]oriz
 -- Stay in indent mode
 vim.keymap.set("v", "<", "<gv", { desc = "Indent left in visual mode" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right in visual mode" })
+
+vim.keymap.set("n", "<leader>tt", ":terminal<CR>", { desc = "Open Terminal" })
