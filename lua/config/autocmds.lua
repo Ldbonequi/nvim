@@ -1,4 +1,5 @@
 -- Setup our JDTLS server any time we open up a java file
+--comment
 vim.cmd [[
     augroup jdtls_lsp
         autocmd!
