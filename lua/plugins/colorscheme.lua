@@ -1,11 +1,11 @@
 return {
+  { "RRethy/base16-nvim" },
+
+  -- Configure LazyVim to load gruvbox-dark-medium from base16
   {
-    "catppuccin/nvim",
-    lazy = false,
-    name = "catppuccin",
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme "catppuccin-mocha"
-    end
-  }
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "base16-gruvbox-dark-medium",
+    },
+  },
 }
